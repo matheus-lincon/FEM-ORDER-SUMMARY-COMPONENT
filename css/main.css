@@ -1,0 +1,68 @@
+:root {
+  /* colors */
+  --primary-700: hsl(245, 75%, 52%);
+  --primary-100: hsl(225, 100%, 94%);
+  --neutral-50: hsl(225, 100%, 98%);
+  --neutral-600: hsl(224, 23%, 55%);
+  --neutral-950: hsl(223, 47%, 23%);
+
+  /* fonts 
+  28px l extrabold
+  22px m extrabold
+  16px s medium, bold
+  14px xs medium, bold, extrabold
+  */
+  --font-l-xb: normal 900 1.75rem "Red Hat Display", sans-serif;
+  --font-m-xb: normal 900 1.375rem "Red Hat Display", sans-serif;
+  --font-s-m: normal 500 1rem "Red Hat Display", sans-serif;
+  --font-s-b: normal 700 1rem "Red Hat Display", sans-serif;
+  --font-xs-m: normal 500 0.875rem "Red Hat Display", sans-serif;
+  --font-xs-b: normal 700 0.875rem "Red Hat Display", sans-serif;
+  --font-xs-xb: normal 900 0.875rem "Red Hat Display", sans-serif;
+
+  /* spacings
+  48px xxl
+  36px xl
+  32px l
+  28px xm
+  24px m
+  20px sm
+  12px xsm
+  */
+  --spacing-xxlg: 3rem;
+  --spacing-xlg: 2.25rem;
+  --spacing-lg: 2rem;
+  --spacing-xm: 1.75rem;
+  --spacing-m: 1.5rem;
+  --spacing-sm: 1.25rem;
+  --spacing-xsm: 0.75rem;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../assets/fonts/RedHatDisplay-VariableFont_wght.ttf");
+  font-display: swap;
+  font-weight: 500 700 900;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img,
+svg {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
