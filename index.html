@@ -1,24 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Order Summary Component">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Order summary card</title>
-</head>
-<body>
-  Order Summary
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Order Summary Component" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <main class="main">
+      <article class="summary">
+        <div class="summary__img">
+          <img
+            aria-hidden="true"
+            src="./images/illustration-hero.svg"
+            alt=""
+            width="450"
+            height="220"
+          />
+        </div>
+        <h1 class="summary__title">Order Summary</h1>
+        <p class="summary__desc">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="summary__pricing">
+          <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
+              <path
+                fill="#717FA6"
+                fill-rule="nonzero"
+                d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"
+              />
+            </g>
+          </svg>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+          <div class="summary__plan">
+            <p class="plan__type">Annual Plan</p>
+            <p class="plan__price">$59.99/year</p>
+          </div>
 
-  Annual Plan
-  $59.99/year
+          <a class="summar__change" href="#">Change</a>
+        </div>
 
-  Change
-
-  Proceed to Payment
-  Cancel Order
-</body>
+        <div class="summary__btns">
+          <button class="summary__btn-primary" type="button">
+            Proceed to Payment
+          </button>
+          <button class="summary__btn-secondary" type="button">
+            Cancel Order
+          </button>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
