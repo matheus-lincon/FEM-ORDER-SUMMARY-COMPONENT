@@ -24,7 +24,7 @@
   place-items: center;
   text-align: center;
   gap: var(--spacing-xm);
-  padding: var(--spacing-xm);
+  padding: var(--fluid-24-48);
 }
 
 .summary__title {
