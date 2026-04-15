@@ -6,20 +6,25 @@
   --neutral-600: hsl(224, 23%, 55%);
   --neutral-950: hsl(223, 47%, 23%);
 
+  --primary-700-hsl: 245, 75%, 52%;
+
   /* fonts 
   28px l extrabold
   22px m extrabold
   16px s medium, bold
   14px xs medium, bold, extrabold
   */
-  --font-l-xb: normal 900 1.75rem "Red Hat Display", sans-serif;
-  --font-m-xb: normal 900 1.375rem "Red Hat Display", sans-serif;
-  --font-s-m: normal 500 1rem "Red Hat Display", sans-serif;
-  --font-s-xb: normal 900 1rem "Red Hat Display", sans-serif;
-  --font-s-b: normal 700 1rem "Red Hat Display", sans-serif;
-  --font-xs-m: normal 500 0.875rem "Red Hat Display", sans-serif;
-  --font-xs-b: normal 700 0.875rem "Red Hat Display", sans-serif;
-  --font-xs-xb: normal 900 0.875rem "Red Hat Display", sans-serif;
+  --fluid-14-18: clamp(0.875rem, 0.7917rem + 0.3704vw, 1.125rem);
+  --fluid-16-18: clamp(1rem, 0.9583rem + 0.1852vw, 1.125rem);
+  --fluid-22-32: clamp(1.375rem, 1.1667rem + 0.9259vw, 2rem);
+
+  --font-title: normal 900 var(--fluid-22-32) "Red Hat Display", sans-serif;
+  --font-s-m: normal 500 var(--fluid-16-18) "Red Hat Display", sans-serif;
+  --font-s-xb: normal 900 var(--fluid-16-18) "Red Hat Display", sans-serif;
+  --font-s-b: normal 700 var(--fluid-16-18) "Red Hat Display", sans-serif;
+  --font-xs-m: normal 500 var(--fluid-14-18) "Red Hat Display", sans-serif;
+  --font-xs-b: normal 700 var(--fluid-14-18) "Red Hat Display", sans-serif;
+  --font-xs-xb: normal 900 var(--fluid-14-18) "Red Hat Display", sans-serif;
 
   /* spacings
   48px xxxl
