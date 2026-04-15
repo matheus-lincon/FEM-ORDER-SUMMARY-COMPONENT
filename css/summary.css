@@ -2,6 +2,12 @@
   padding: var(--spacing-xm);
 }
 
+@media (max-width: 320px) {
+  .main {
+    padding: 0.3rem;
+  }
+}
+
 .summary {
   background-color: #fff;
   border-radius: 1.125rem;
