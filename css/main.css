@@ -21,20 +21,22 @@
   --font-xs-xb: normal 900 0.875rem "Red Hat Display", sans-serif;
 
   /* spacings
-  48px xxl
-  36px xl
-  32px l
-  28px xm
-  24px m
-  20px sm
+  48px xxxl
+  36px xxl
+  32px xl
+  28px l
+  24px xm
+  20px m
+  16px sm
   12px xsm
   */
-  --spacing-xxlg: 3rem;
-  --spacing-xlg: 2.25rem;
-  --spacing-lg: 2rem;
-  --spacing-xm: 1.75rem;
-  --spacing-m: 1.5rem;
-  --spacing-sm: 1.25rem;
+  --spacing-xxxlg: 3rem;
+  --spacing-xxlg: 2.25rem;
+  --spacing-xlg: 2rem;
+  --spacing-lg: 1.75rem;
+  --spacing-xm: 1.5rem;
+  --spacing-m: 1.25rem;
+  --spacing-sm: 1rem;
   --spacing-xsm: 0.75rem;
 }
 
